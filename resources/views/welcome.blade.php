@@ -7,6 +7,11 @@
     <title>Welcome Page</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+    <h1 class="text-white">Hello World</h1>
 </body>
 </html>
