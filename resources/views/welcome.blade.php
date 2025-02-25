@@ -8,11 +8,15 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-    <style>
-        body {
-            background-color: black;
-        }
-    </style>
-    <h1 class="text-white">Hello World</h1>
+    <nav class="navigation">
+        <div class="navigation-container">
+            <ul>
+                <a href="/welcomepage">Home</a>
+                <a href="/aboutpage">About</a>
+                <a href="/contactpage">Contact</a>
+            </ul>
+        </div>
+    </nav>
+    <h1>This is the home page</h1>
 </body>
 </html>
