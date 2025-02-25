@@ -7,11 +7,6 @@
     <title>Welcome Page</title>
 </head>
 <body>
-    <style>
-        body {
-            background-color: black;
-        }
-    </style>
     <h1 class="text-white">Hello World</h1>
 </body>
-</html>
+</html> HelloWorld25
