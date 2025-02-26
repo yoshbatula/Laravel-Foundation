@@ -11,16 +11,14 @@
     <title>Home</title>
 </head>
 <body class="bg-black">
-    <div class="container">
-        <div class="login-container text-white ml-[46%] mt-[20%] border-2 border-pink-5">
+        <div class="bg-blue text-white border-2 border-white mx-auto w-[20%] mt-[17%]">
             <form action="{{url('/welcomepage')}}" class="login">
                 <label for="email">Email: </label><br>
                 <input class="text-black" type="email" name="email" required><br>
                 <label for="password">Password</label><br>
                 <input class="text-black" type="password" name="password"><br><br>
-                <input class="border-2 border-white " type="submit" value="submit">
+                <input class="mx-auto border-2 border-white" id="submit" type="submit" value="submit">
             </form>
         </div>
-    </div>
 </body>
 </html>
